@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskSync</title>
-    <link rel="stylesheet" href="./Styles/welcomeScreen.css">
+    <link rel="stylesheet" href="/Styles/welcomeScreen.css">
 </head>
 <body>
-    <img src="logoTaskSync.jpg" alt="Logo do aplicativo">
+    <h1 class="logoetitulo">
+        <div class="appimage">
+            <img src = "logo-app.png" alt="Logo do aplicativo">
+        </div>
+        TaskSync
+    </h1> 
     <h1>
         Login
     </h1>
-    <p>
-        Email
+            
+    <form>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="senha">Senha</label><br>
+        <input type="password" id="senha" name="senha">
+        <button class="signin" type="button" onclick="alert('Hello World!')">Sign In</button>
+    </form>
+    
+    <p>Ou use uma de suas Redes Sociais</p>
+    <p class="redessociais">
+        <button class="facebook" type="button" onclick="alert('Logar com FB')">FaceBook</button>
+        <button class="instagram" type="button" onclick="alert('Logar com Insta')">Instagram</button>
     </p>
-    <p>
-        Password
-    </p>
+
+
+    
+    
 </body>
 </html>

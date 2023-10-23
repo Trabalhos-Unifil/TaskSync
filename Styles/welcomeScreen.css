@@ -1,5 +1,10 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    
+}
+
+html{
+    background-color: rgb(248, 246, 246);
 }
 
 .appimage img{
@@ -15,45 +20,71 @@
     border: 5px;
     text-align: center;
     font-size: 30px;
+    padding-bottom: 9rem;
 }
 
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
+    text-align: center;
 }
 
 form, input, button {
     display: block;
     margin-left: 10px;
     margin-top: 10px;
-    font-size: 19px;
+    font-size: 15px;
+    
   }
   input {
     font-size: 15px;
     width: 90%;
-    height: 25px;
+    height: 1.4rem;
     box-shadow:7px 7px 5px rgb(214, 213, 213);
-    border: 1px solid gray;
+    border: 0px solid gray;
     border-radius: 12px;
     padding: 5px;
   }
   .signin {
+    margin-top: 5%;
+    width:92%;
+    height: 2rem;
+    background-color: rgb(255, 85, 0); 
+    box-shadow:7px 7px 5px rgb(214, 213, 213);
+    border-radius: 12px;
+    color: bisque;
+    border: 0;
+  }
+
+  p{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 0;
+  }
+  .redessociais {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 4%;
-    width: 70%;
-    height: 35px;
-    background-color: rgb(255, 85, 0); 
-    box-shadow:7px 7px 5px rgb(214, 213, 213);
-    border-radius: 12px;
-    padding: 10px;
-  }
-  .redessociais {
-
     
-  }
+ }
+ .facebook {
+    background-color: #3b5998;
+    width: 35%;
+    height: 2.5rem;
+    border-radius: 12px;
+    color: bisque;
+    border: 0;
+ }
+ .instagram {
+    
+    background-color: #405de6;
+    width: 35%;
+    height: 2.5rem;
+    border-radius: 12px;
+    color: bisque;
+    border: 0;
+ }
   
   
 
