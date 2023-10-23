@@ -1,0 +1,60 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.appimage img{
+    border: 5px;
+    border-radius: 50%;
+    width: 22%;
+    display: block;
+    margin: auto;
+
+}
+
+.logoetitulo{
+    border: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+form, input, button {
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  input {
+    font-size: 15px;
+    width: 90%;
+    height: 25px;
+    box-shadow:7px 7px 5px rgb(214, 213, 213);
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 5px;
+  }
+  .signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 4%;
+    width: 70%;
+    height: 35px;
+    background-color: rgb(255, 85, 0); 
+    box-shadow:7px 7px 5px rgb(214, 213, 213);
+    border-radius: 12px;
+    padding: 10px;
+  }
+  .redessociais {
+
+    
+  }
+  
+  
+
+  
