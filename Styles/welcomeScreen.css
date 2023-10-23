@@ -1,8 +1,6 @@
 * {
     font-family: 'Rubik';
-    font-size: 13px;
-    
-    
+    font-size: 13px; 
 }
 
 html{
@@ -11,8 +9,7 @@ html{
 
 .appimage img{
     border: 5px;
-    border-radius: 50%;
-    width: 22%;
+    width: 25%;
     margin: auto;
 }
 
@@ -20,7 +17,7 @@ html{
     border: 5px;
     text-align: center;
     font-size: 35px;
-    padding-bottom: 9rem;
+    padding-bottom: 8rem;
 }
 
 h1{
